@@ -37,6 +37,9 @@ body {
 .container .box .hero-mobile {
   width: 100%;
 }
+.container .box .hero-mobile img {
+  width: 100%;
+}
 .container .box article {
   width: 100%;
   padding: 6rem 3rem;
@@ -76,6 +79,7 @@ body {
   padding: 1.5rem;
   border: 1px solid #ce9797;
   background-color: transparent;
+  outline: none;
 }
 .container .box article .formulario input::placeholder {
   color: #ce9797;
@@ -118,6 +122,15 @@ footer .attribution a {
   font-weight: 400;
 }
 
+@media (min-width: 768px) and (min-height: 1024px) {
+  body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 @media (min-width: 800px) {
   footer .attribution {
     font-size: 14px;
