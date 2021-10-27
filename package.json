@@ -1,0 +1,33 @@
+{
+  "name": "base-apparel-coming-soon-page",
+  "version": "1.0.0",
+  "description": "Solution for a frontend mentor challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server",
+    "sass": "sass --watch ./src/scss/styles.scss ./src/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamiloBeltran24/Base-Apparel-coming-soon-page.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "FrotendMentor",
+    "Frontend",
+    "Development"
+  ],
+  "author": "Christian Camilo Beltran Foonseca <cambelf.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CamiloBeltran24/Base-Apparel-coming-soon-page/issues"
+  },
+  "homepage": "https://github.com/CamiloBeltran24/Base-Apparel-coming-soon-page#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "sass": "^1.43.3"
+  }
+}

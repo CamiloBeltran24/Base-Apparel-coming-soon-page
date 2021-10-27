@@ -1,0 +1,127 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: rgba(206, 151, 151, 0.1);
+}
+
+.container {
+  width: 100%;
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 0.7rem;
+}
+.container .box {
+  width: 100%;
+}
+.container .box .logo {
+  padding: 3rem 2.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.container .box .logo img {
+  width: 100px;
+}
+.container .box .hero-mobile {
+  width: 100%;
+}
+.container .box article {
+  width: 100%;
+  padding: 6rem 3rem;
+}
+.container .box article p {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.container .box article .title {
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 10px;
+  color: #ce9797;
+  font-weight: 300;
+}
+.container .box article .title strong {
+  color: #413a3a;
+  font-weight: bold;
+}
+.container .box article p:nth-child(2) {
+  color: #ce9797;
+  margin-top: 2.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.container .box article .formulario {
+  margin-top: 2.5rem;
+  width: 100%;
+  position: relative;
+}
+.container .box article .formulario input {
+  width: 100%;
+  height: 4.5rem;
+  border-radius: 5rem;
+  padding: 1.5rem;
+  border: 1px solid #ce9797;
+  background-color: transparent;
+}
+.container .box article .formulario input::placeholder {
+  color: #ce9797;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.container .box article .formulario button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+  height: 4.5rem;
+  top: 0;
+  right: 0;
+  padding: 1.5rem;
+  border-radius: 5rem;
+  border: none;
+  outline: none;
+  background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  box-shadow: 0 3px 15px -5px #ce9797;
+}
+.container .box-rigth {
+  display: none;
+}
+
+footer {
+  width: 100%;
+  padding: 1rem 2rem;
+  color: #ce9797;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+}
+footer .attribution a {
+  text-decoration: none;
+  color: #413a3a;
+  font-weight: 400;
+}
+
+@media (min-width: 800px) {
+  footer .attribution {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
