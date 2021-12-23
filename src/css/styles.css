@@ -206,10 +206,16 @@ footer .attribution a {
   .container .box-left article .formulario .errorIcon {
     position: absolute;
     top: 1rem;
-    right: 7rem;
+    right: 10rem;
+  }
+  .container .box-left article .formulario .errorMessage {
+    color: #ce9797;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 1.4rem;
   }
   .container .box-rigth {
-    width: 50%;
+    width: 45%;
     height: 100%;
     display: block;
   }
@@ -223,6 +229,11 @@ footer .attribution a {
   }
   footer .attribution {
     font-size: 14px;
+  }
+}
+@media (min-width: 1400px) {
+  body .container .box-rigth {
+    width: 50%;
   }
 }
 

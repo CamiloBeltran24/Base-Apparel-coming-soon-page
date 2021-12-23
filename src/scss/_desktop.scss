@@ -69,13 +69,19 @@
           .errorIcon {
             position: absolute;
             top: 1rem;
-            right: 7rem;
+            right: 10rem;
+          }
+          .errorMessage {
+            color: $Desaturated-Red;
+            margin-top: 5px;
+            margin-left: 15px;
+            font-size: 1.4rem;
           }
         }
       }
     }
     .box-rigth {
-      width: 50%;
+      width: 45%;
       height: 100%;
       display: block;
       img {
@@ -88,6 +94,15 @@
     display: none;
     .attribution {
       font-size: 14px;
+    }
+  }
+}
+@media (min-width: 1400px) {
+  body {
+    .container {
+      .box-rigth {
+        width: 50%;
+      }
     }
   }
 }
