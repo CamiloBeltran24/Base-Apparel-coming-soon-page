@@ -20,9 +20,9 @@ button.addEventListener("click", () => {
       button.style.background = "hsl(0, 80%, 86%)";
       button.style.boxShadow = "3px 3px 18px 0px hsl(0, 6%, 24%)";
     } else {
+      input.style.borderColor = "hsl(0, 36%, 70%)";
+      message.innerHTML = "Success";
       if (document.querySelector(".errorIcon")) {
-        input.style.borderColor = "hsl(0, 36%, 70%)";
-        message.innerHTML = "Success";
         let imagenes = document.querySelectorAll(".errorIcon");
         imagenes.forEach((imagen) => {
           imagen.remove();
