@@ -155,8 +155,8 @@ footer .attribution a {
     display: none;
   }
   .container .box-left {
-    width: 62%;
-    padding: 4rem 23rem;
+    width: 60%;
+    padding: 4rem 10rem;
     background-image: url(../assets/images/bg-pattern-desktop.svg);
     background-position: top center;
     background-size: contain;
@@ -182,19 +182,35 @@ footer .attribution a {
   }
   .container .box-left article p {
     text-align: start;
+    max-width: 380px;
   }
   .container .box-left article p:nth-child(2) {
     line-height: 2.5rem;
   }
-  .container .box-left article form button {
-    cursor: pointer;
+  .container .box-left article .formulario {
+    max-width: 380px;
   }
-  .container .box-left article form button:hover {
-    transform: scale(1, 1);
-    transition: all ease-in-out 0.3s;
+  .container .box-left article .formulario input {
+    font-size: 1.4rem;
+    font-family: "Josefin Sans", sans-serif;
+    width: 100%;
+  }
+  .container .box-left article .formulario .alert {
+    border-color: 1px solid #f96262;
+  }
+  .container .box-left article .formulario button {
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+    width: 80px;
+  }
+  .container .box-left article .formulario .errorIcon {
+    position: absolute;
+    top: 1rem;
+    right: 7rem;
   }
   .container .box-rigth {
-    width: 38%;
+    width: 50%;
+    height: 100%;
     display: block;
   }
   .container .box-rigth img {
